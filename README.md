@@ -1,4 +1,4 @@
-## delicious Theme
+## Delicious Theme 😋
 
 <p>This is a great pastry theme that is coded with tailwindcss framework. Try it now!</p>
 
