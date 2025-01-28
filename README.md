@@ -1,6 +1,6 @@
 ## Delicious Theme 😋
 
-<p>This is a great pastry theme that is coded with tailwindcss framework. Try it now!</p>
+<p>This is a great pastry theme that is designed with tailwindcss framework. Try it now!</p>
 
 ![Image](https://github.com/user-attachments/assets/d2815f30-f864-4436-818c-3b091df51eb8)
 
