@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cake shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- splide carousel CDNs : -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo flex">
+        <!-- social icons -->
+        <div
+          class="socialIcons pl-3 relative text-white hidden sm:block items-center grow"
+        >
+          <div
+            class="w-full flex justify-center gap-5 absolute bottom-3 text-lg"
+          >
+            <a href="#" class="hover:text-baseYellow no-underline duration-200">
+              <span class="fa-brands block fa-facebook duration-500"></span>
+            </a>
+            <a href="#" class="hover:text-baseYellow no-underline duration-200">
+              <span class="fa-brands block fa-instagram duration-500"></span>
+            </a>
+            <a href="#" class="hover:text-baseYellow no-underline duration-200">
+              <span class="fa-brands block fa-twitter duration-500"></span>
+            </a>
+          </div>
+        </div>
+        <!-- Logo part -->
+        <div class="logo flex sm:justify-end md:justify-center py-4 grow-[5]">
+          <a href="/" class="inline-block px-5 lg:pl-[5.25rem]">
+            <img src="images/logo.png.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="call hidden md:flex justify-center items-center grow-0 pr-10"
+        >
+          <a
+            href="#"
+            class="border border-baseYellow inline-block p-3 text-baseYellow hover:bg-baseYellow hover:text-white duration-500"
+            >Call Us: +10 783 346 4378</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- menu -->
+    <section class="py-1 bg-[#090b0a] lg:sticky lg:top-0 lg:z-10">
+      <nav class="flex justify-center">
+        <ul
+          class="uppercase hidden md:flex text-white text-base font-jost font-[400]"
+        >
+          <li><a class="py-5 px-6 inline-block" href="#">home</a></li>
+          <li><a class="py-5 px-6 inline-block" href="#">cakes</a></li>
+          <li><a class="py-5 px-6 inline-block" href="#">about</a></li>
+          <li>
+            <a class="py-5 px-6 inline-block" href="#">blog</a>
+            <ul class="capitalize w-36 py-2 bg-white z-10 text-black ml-3">
+              <li><a class="block w-full py-2 pl-3" href="#">blog</a></li>
+              <li>
+                <a class="block w-full py-2 pl-3" href="#">blog details</a>
+              </li>
+              <li>
+                <a class="block w-full py-2 pl-3" href="#">elements</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="py-5 px-6 inline-block" href="#">contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- image section -->
+    <section class="tort relative overflow-hidden">
+      <figure class="w-full h-full">
+        <img src="images/h1_hero1.jpg" alt="tort" class="w-full object-cover" />
+      </figure>
+
+      <!-- text box on image -->
+      <div
+        class="titlesContainer p-3 absolute w-full lg:w-1/2 top-0 lg:top-auto lg:bottom-[1rem] pl-10"
+      >
+        <div
+          class="titles md:leading-[1] flex gap-3 text-3xl md:text-[4.3rem] md:flex-col"
+        >
+          <h2 class="capitalize font-poiret text-white py-1">healty mode</h2>
+
+          <h2 class="capitalize font-poiret text-white py-1">Delicios cake</h2>
+        </div>
+        <a href="#" class="custom-button">order now</a>
+      </div>
+    </section>
+
+    <div class="container mt-12">
+      <!-- row -->
+      <div class="flex">
+        <!-- cols -->
+        <div class="w-full md:w-9/12 lg:w-7/12 lg:max-w-[578px] mx-auto">
+          <h2
+            class="schilers text-center text-3xl leading-[1.4] lg:leading-[1.2] lg:text-[40px] font-poiret"
+          >
+            This is Schilers. Awesome Food Theme. Purchase it and eat Burgers.
+          </h2>
+        </div>
+      </div>
+
+      <!-- row -->
+      <div
+        class="flex flex-wrap mx-auto md:max-w-[560px] lg:max-w-[960px] 2xl:max-w-[1140px] lg:mt-6"
+      >
+        <!-- cols -->
+        <div class="w-full lg:w-1/2 p-4">
+          <p class="text-baseYellow text-2xl font-poiret 2xl:text-4xl">
+            This is Schilers. Awesome Food Theme. Purchase it and eat Burgers.
+          </p>
+          <p class="pr-3 mt-3 font-jost font-light leading-6 2xl:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercita tion ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute dolor in reprehen derit
+            in voluptate velit esse cillum.
+          </p>
+          <p class="pr-3 mt-3 font-jost font-light leading-6 2xl:text-lg">
+            Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
+            tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute dolor in reprehen derit in voluptate velit esse cillum.
+          </p>
+        </div>
+        <!-- col -->
+        <div class="w-full mt-5 lg:mt-0 lg:w-1/2 bg-yellow-500">
+          <figure class="w-full h-full">
+            <img
+              src="images/about1.jpg.webp"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Splide slider -->
+    <div class="container max-w-[1200px]">
+      <section
+        id="image-carousel"
+        class="splide mt-[100px]"
+        aria-label="beautiful images"
+      >
+        <div class="splide__track">
+          <ul class="splide__list flex gap-3">
+            <!-- first slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items3.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+
+            <!-- 2nd slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items2.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+
+            <!-- 3rd slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items1.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+
+            <!-- second row of slides -->
+            <!-- first slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items3.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+
+            <!-- 2nd slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items2.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+
+            <!-- 3rd slide -->
+            <li class="splide__slide">
+              <figure class="relative overflow-hidden">
+                <img
+                  src="images/slider/items1.jpg.webp"
+                  class="w-full"
+                  alt=""
+                />
+                <a
+                  href="#"
+                  class="absolute bottom-[-60px] h-10 lg:h-[3.2rem] w-full grid place-items-center bg-baseYellow text-baseColor font-jost text-base duration-500 capitalize"
+                >
+                  add to cart
+                </a>
+              </figure>
+              <div>
+                <a
+                  href="#"
+                  class="capitalize flex text-2xl font-poiret w-full text-white py-2"
+                  >sweet suprise</a
+                >
+                <a
+                  href="#"
+                  class="capitalize flex text-xl font-poiret w-full text-baseYellow"
+                  >$98.00</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- video -->
+    <div class="container mt-[100px]">
+      <video
+        class="rounded-md"
+        src="images/video/DESSERTS FOOD COMMERCIAL - FOOD REEL - FOOD ADVERTISEMENT.mp4"
+        controls
+        poster="images/video/videoposter.jpg"
+      ></video>
+    </div>
+
+    <!-- food lovers section -->
+    <div class="container mt-[100px] max-w-[1200px]">
+      <h2
+        class="capitalize font-poiret text-white font-light text-center text-4xl md:text-4xl pb-8"
+      >
+        food lover's say
+      </h2>
+      <div
+        class="comment mt-4 p-2 grid gap-2 lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:border-y-[1px] lg:border-y-[#3b3b3b]"
+      >
+        <!-- first comment -->
+        <div
+          class="border border-[1] border-[#3b3b3b] lg:border-y-0 lg:border-l-0 lg:border-r-[1px] lg:border-r-[#3b3b3b] py-5 px-10"
+        >
+          <div class="star flex text-lg lg:text-xl">
+            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+            ><span>⭐</span>
+          </div>
+          <p
+            class="font-jost text-lg py-4 pt-5 sm:w-[430px] text-wrap md:w-auto"
+          >
+            "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter
+            labore et dolore magna.
+          </p>
+          <div class="profile flex gap-4 items-center py-3">
+            <figure>
+              <img
+                src="images/food-lovers/customer1.png.webp"
+                alt="food lover"
+              />
+            </figure>
+            <span class="capitalize font-jost">Wilma Mumduya</span>
+          </div>
+        </div>
+
+        <!-- 2nd comment -->
+        <div
+          class="border border-[1] border-[#3b3b3b] lg:border-y-0 lg:border-l-0 lg:border-r-[1px] lg:border-r-[#3b3b3b] py-5 px-10"
+        >
+          <div class="star flex text-lg lg:text-xl">
+            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+            ><span>⭐</span>
+          </div>
+          <p
+            class="font-jost text-lg py-4 pt-5 sm:w-[430px] text-wrap md:w-auto"
+          >
+            "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter
+            labore et dolore magna.
+          </p>
+          <div class="profile flex gap-4 items-center py-3">
+            <figure>
+              <img
+                src="images/food-lovers/customer2.png.webp"
+                alt="food lover"
+              />
+            </figure>
+            <span class="capitalize font-jost">Wilma Mumduya</span>
+          </div>
+        </div>
+
+        <!-- 3rd comment -->
+        <div class="border border-[1] border-[#3b3b3b] lg:border-0 py-5 px-10">
+          <div class="star flex text-lg lg:text-xl">
+            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+            ><span>⭐</span>
+          </div>
+          <p
+            class="font-jost text-lg py-4 pt-5 sm:w-[430px] text-wrap md:w-auto"
+          >
+            "Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter
+            labore et dolore magna.
+          </p>
+          <div class="profile flex gap-4 items-center py-3">
+            <figure>
+              <img
+                src="images/food-lovers/customer3.png.webp"
+                alt="food lover"
+              />
+            </figure>
+            <span class="capitalize font-jost">Wilma Mumduya</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of food lover's container -->
+
+    <!-- blogs section -->
+    <div class="container max-w-[1200px] mt-28 mb-14">
+      <!-- row -->
+      <div class="grid grid-cols-2 p-2">
+        <div class="flex items-center">
+          <h2 class="capitalize font-poiret text-4xl lg:text-4xl">our blogs</h2>
+        </div>
+        <div class="flex justify-end self-center">
+          <a href="#" class="custom-button !mt-0">more blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="grid grid-cols-1 gap-3 xl:grid-cols-2 lg:max-w-[768px] lg:mx-auto xl:max-w-max"
+      >
+        <div class="flex flex-col md:flex-row">
+          <figure class="w-full md:w-1/2">
+            <img
+              src="images/blog/blog1.jpg.webp"
+              alt="cooking food"
+              class="w-full h-full object-cover"
+            />
+          </figure>
+          <!-- text box -->
+          <div
+            class="py-4 px-8 lg:pr-2 w-full md:w-1/2 border border-[#3b3b3b]"
+          >
+            <p class="font-jost text-baseYellow text-3xl font-extralight">
+              Tomato, black olive, feta and anchovy tart ulla mco laboris
+            </p>
+            <p class="text-base py-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercita tion ullamco laboris nisi ut
+              aliquip.
+            </p>
+            <a
+              href="#"
+              class="text-baseYellow text-base uppercase tracking-tight hover:tracking-wider duration-300 inline-flex py-3"
+              >learn more</a
+            >
+          </div>
+        </div>
+
+        <!-- 2nd blog -->
+        <div class="flex flex-col md:flex-row">
+          <figure class="w-full md:w-1/2">
+            <img
+              src="images/blog/blog2.jpg.webp"
+              alt="cooking food"
+              class="w-full h-full object-cover"
+            />
+          </figure>
+          <!-- text box -->
+          <div class="p-4 px-8 lg:pr-2 w-full md:w-1/2 border border-[#3b3b3b]">
+            <p class="font-jost text-baseYellow text-3xl font-extralight">
+              Tomato, black olive, feta and anchovy tart ulla mco laboris
+            </p>
+            <p class="text-base py-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercita tion ullamco laboris nisi ut
+              aliquip.
+            </p>
+            <a
+              href="#"
+              class="text-baseYellow text-base uppercase tracking-tight hover:tracking-wider inline-flex duration-300 py-3"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of blog section -->
+
+    <!-- follow instagram -->
+    <div class="container mt-[100px]">
+      <h2 class="font-poiret text-center text-4xl my-8">
+        Follow us on Instagram
+      </h2>
+      <div
+        class="cakeshop flex items-center justify-center text-baseYellow font-jost"
+      >
+        <a
+          href="#"
+          class="flex items-center gap-2 border border-baseYellow py-3 px-7"
+        >
+          <span class="fa-brands fa-instagram"></span>
+          <span class="inline-block">Cakeshop</span>
+        </a>
+      </div>
+      <!-- insta images -->
+      <div
+        class="w-3/4 mx-auto md:w-auto md:mx-0 grid justify-items-center grid-cols-1 md:grid-cols-2 md:gap-x-4 lg:grid-cols-4 gap-y-4 md:gap-y-4 lg:gap-4 mt-12"
+      >
+        <a href="#" class="w-full"
+          ><img
+            class="w-full"
+            src="images/insta/instra1.jpg.webp"
+            alt="sweets" /></a
+        ><a href="#" class="w-full"
+          ><img
+            class="w-full"
+            src="images/insta/instra2.jpg.webp"
+            alt="sweets" /></a
+        ><a href="#" class="w-full"
+          ><img
+            class="w-full"
+            src="images/insta/instra3.jpg.webp"
+            alt="sweets" /></a
+        ><a href="#" class="w-full"
+          ><img class="w-full" src="images/insta/instra4.jpg.webp" alt="sweets"
+        /></a>
+      </div>
+    </div>
+    <!-- End of follow insta -->
+
+    <div class="container mt-[100px]">
+      <!-- row -->
+      <div
+        class="flex flex-col md:flex-row flex-wrap pb-5 border-b border-[#3b3b3b]"
+      >
+        <!-- div.col -->
+        <div class="w-full md:w-1/3">
+          <figure>
+            <img src="images/logo.png.webp" alt="" />
+          </figure>
+        </div>
+        <!-- div.col -->
+        <div class="w-full md:w-2/3">
+          <nav class="flex lg:justify-end">
+            <ul
+              class="uppercase flex text-white text-base font-jost font-[400]"
+            >
+              <li><a class="py-5 px-6 inline-block" href="#">home</a></li>
+              <li><a class="py-5 px-6 inline-block" href="#">cakes</a></li>
+              <li><a class="py-5 px-6 inline-block" href="#">about</a></li>
+              <li>
+                <a class="py-5 px-6 inline-block" href="#">blog</a>
+              </li>
+              <li><a class="py-5 px-6 inline-block" href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- row -->
+      <div class="flex flex-col lg:flex-row my-[60px]">
+        <!-- col -->
+        <div class="w-full lg:w-2/4 pl-5">
+          <p class="font-jost pb-10 w-5/6 md:w-full leading-[2]">
+            Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita
+            tion ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="links flex gap-3">
+            <a
+              href="#"
+              class="flex justify-center items-center gap-2 py-3 px-7 border border-[#3b3b3b] hover:border-baseYellow hover:text-baseYellow duration-500 w-[145px]"
+              ><span class="fa-brands fa-instagram"></span>
+              <span>instagram</span> </a
+            ><a
+              href="#"
+              class="flex justify-center items-center gap-2 py-3 px-7 border border-[#3b3b3b] hover:border-baseYellow hover:text-baseYellow duration-500 w-[135px]"
+              ><span class="fa-brands fa-facebook"></span>
+              <span>facebook</span></a
+            ><a
+              href="#"
+              class="flex justify-center items-center gap-2 py-3 px-7 border border-[#3b3b3b] hover:border-baseYellow hover:text-baseYellow duration-500 w-[135px]"
+              ><span class="fa-brands fa-twitter"></span>
+              <span>twitter</span></a
+            >
+          </div>
+        </div>
+        <div class="w-full md:w-1/4 pl-[60px]">
+          <div class="svg pt-[60px] md:pt-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23.162"
+              height="23.162"
+              viewBox="0 0 23.162 23.162"
+            >
+              <path
+                id="location"
+                d="M20.109.159,1.3,8.84a2.193,2.193,0,0,0,.868,4.2h7.958v7.958a2.193,2.193,0,0,0,4.2.868L23,3.053A2.257,2.257,0,0,0,20.109.159Z"
+                transform="translate(0)"
+                fill="#dfdfdf"
+              />
+            </svg>
+          </div>
+          <h2 class="font-poiret text-baseYellow text-2xl py-3">Location</h2>
+          <p class="text-base font-jost">
+            4736 Poe Lane, HOT SPRINGS, Montana-59845
+          </p>
+        </div>
+        <div class="w-full md:w-1/4 pl-[60px]">
+          <div class="svg pt-[60px] md:pt-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23.162"
+              height="23.162"
+              viewBox="0 0 23.162 23.162"
+            >
+              <path
+                id="phone"
+                d="M22.5,16.368,17.435,14.2a1.086,1.086,0,0,0-1.267.312L13.924,17.25A16.768,16.768,0,0,1,5.908,9.234L8.65,6.99a1.083,1.083,0,0,0,.312-1.267L6.79.657A1.093,1.093,0,0,0,5.546.028L.841,1.113A1.086,1.086,0,0,0,0,2.172,20.989,20.989,0,0,0,20.991,23.163a1.086,1.086,0,0,0,1.059-.841l1.086-4.7A1.1,1.1,0,0,0,22.5,16.368Z"
+                transform="translate(0 0)"
+                fill="#dfdfdf"
+              />
+            </svg>
+          </div>
+          <h2 class="font-poiret text-baseYellow text-2xl py-3">Contact</h2>
+          <a
+            href="#"
+            class="inline-block font-jost hover:underline hover:decoration-white duration-300"
+            >913-473-7000</a
+          >
+          <p class="text-base font-jost">contact@cakeshop.com</p>
+        </div>
+      </div>
+      <div class="h-[1px] bg-[#3b3b3b]"></div>
+    </div>
+
+    <div class="flex justify-center pt-8 font-jost pb-5 text-center">
+      Copyright ©2025 All rights reserved | This template is redesigned with 💛
+      by Mohamad Mokaram
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#image-carousel", {
+          perPage: 3,
+          breakpoints: {
+            992: {
+              perPage: 2,
+            },
+            576: {
+              perPage: 1,
+            },
+          },
+          type: "loop",
+          autoplay: true,
+          interval: 2500,
+          perPage: 3,
+          perMove: 1,
+          pagination: false,
+          speed: 700,
+        }).mount();
+      });
+    </script>
+  </body>
+</html>
